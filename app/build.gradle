@@ -50,7 +50,7 @@ afterEvaluate {
                 from components.release
                 groupId = project.findProperty("group") ?: "com.github.AbdallahDafa"
                 artifactId = "hyperpay_sdk_library_msa"
-                version = project.findProperty("version") ?: "1.0.16"
+                version = project.findProperty("version") ?: "1.0.30"
 
                 // print for testing
                 println "******* abdo - publications Root dir is: $rootDir"

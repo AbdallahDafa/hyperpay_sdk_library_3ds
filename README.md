@@ -1,4 +1,5 @@
 # HyperPay SDK Implemnation Library
+# Installer File AAR "msa.aar" by implementaion dependence
 
 ## Step 1 : allow download library 
 
