@@ -1,5 +1,5 @@
 # HyperPay SDK Implemnation Library
-# Installer File AAR "msa.aar" by implementaion dependence
+# Installer File AAR "ipworks3ds_sdk.aar" by implementaion dependence
 
 ## Step 1 : allow download library 
 
@@ -39,8 +39,8 @@ dependencyResolutionManagement {
 
 ### implementation to build.gradle depenences 
 ``` 
-    implementation 'com.github.AbdallahDafa:hyperpay_sdk_library_msa:v1.0.32' 
-    implementation 'com.github.AbdallahDafa:hyperpay_sdk_library_msa:1.0.32:msa@aar'
+    implementation 'com.github.AbdallahDafa:hyperpay_sdk_library_3ds:v1.0.32' 
+    implementation 'com.github.AbdallahDafa:hyperpay_sdk_library_3ds:1.0.32:3ds@aar'
 ```
 
 
@@ -55,7 +55,8 @@ or using latest version number
 
 * after install trying to get name of testin
 ```
-        TestHyperPay.getName();
+        TestHyperPay3Ds.getName();
 ```
 
 # HyperPayLibraryAARFileMsa
+# hyperpay_sdk_library_3ds
