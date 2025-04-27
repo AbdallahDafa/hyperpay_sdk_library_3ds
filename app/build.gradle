@@ -61,7 +61,7 @@ afterEvaluate {
 
                 // upload aar file path
                 artifact("./libs/ipworks3ds_sdk.aar"){
-                    classifier = "3ds" // 👈 this avoids conflict
+                    classifier = "ipworks3ds_sdk" // 👈 this avoids conflict
                 }
             }
 
