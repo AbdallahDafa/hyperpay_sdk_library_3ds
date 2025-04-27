@@ -1,0 +1,14 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2' // working with gradle version 7.6
+    }
+}
+
