@@ -22,5 +22,5 @@ dependencyResolutionManagement {
 }
 
 
-rootProject.name = "HyperPayLibraryAARFileMsa"
+rootProject.name = "HyperPayLibraryAARFile3ds"
 include ':app'

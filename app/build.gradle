@@ -49,19 +49,19 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = project.findProperty("group") ?: "com.github.AbdallahDafa"
-                artifactId = "hyperpay_sdk_library_msa"
-                version = project.findProperty("version") ?: "1.0.30"
+                artifactId = "hyperpay_sdk_library_3ds"
+                version = project.findProperty("version") ?: "1.0.32"
 
                 // print for testing
                 println "******* abdo - publications Root dir is: $rootDir"
-                def fileSdkTest = file("./libs/msa.aar")
+                def fileSdkTest = file("./libs/ipworks3ds_sdk.aar")
                 println "******* abdo - fileSdkTest path: ${fileSdkTest.absolutePath}"
                 println "******* abdo - fileSdkTest exists: ${fileSdkTest.exists()}"
 
 
                 // upload aar file path
-                artifact("./libs/msa.aar"){
-                    classifier = "msa" // 👈 this avoids conflict
+                artifact("./libs/ipworks3ds_sdk.aar"){
+                    classifier = "3ds" // 👈 this avoids conflict
                 }
             }
 

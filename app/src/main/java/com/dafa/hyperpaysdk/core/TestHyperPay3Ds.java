@@ -1,6 +1,6 @@
 package com.dafa.hyperpaysdk.core;
 //import com.oppwa.mobile.connect.provider.Connect;
-public class TestHyperPayMSA {
+public class TestHyperPay3Ds {
 
     public static String getName() { return  "i am still in development hyperpay";  }
 
