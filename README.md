@@ -57,6 +57,5 @@ or using latest version number
 ```
         TestHyperPay3Ds.getName();
 ```
-
-# HyperPayLibraryAARFileMsa
+ 
 # hyperpay_sdk_library_3ds
